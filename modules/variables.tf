@@ -1,0 +1,10 @@
+variable "vpc_name" {}
+variable "vpc_cidr" {}
+variable "az_count" {}
+variable "enable_dns_hostnames" {}
+variable "enable_dns_support" {}
+variable "default_tags" {}
+variable "current_region" {}
+variable "rds_cluster_definition" {}
+variable "ecs_fargate_cluster_definition" {}
+variable "bastion_definition" {}
