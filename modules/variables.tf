@@ -8,3 +8,4 @@ variable "current_region" {}
 variable "rds_cluster_definition" {}
 variable "ecs_fargate_cluster_definition" {}
 variable "bastion_definition" {}
+variable "custom_prefix" {}
