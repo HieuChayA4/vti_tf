@@ -12,7 +12,11 @@ variable "default_tags" {
   description = "Additional resource tags"
   type        = map(string)
 }
-
+variable "custom_prefix" {
+  description = "The prefix for identity resources by individual"
+  type = "string"
+  default = "hieunq"
+}
 variable "trusted_ips" {
   description = "The public ip of administrator"
   type        = string
