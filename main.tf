@@ -9,6 +9,7 @@ module "ezservices" {
   enable_dns_hostnames = true
   enable_dns_support   = true
   az_count             = var.az_count
+  custom_prefix        = var.custom_prefix
 
   #ECS
   ecs_fargate_cluster_definition = var.ecs_cluster_definition
