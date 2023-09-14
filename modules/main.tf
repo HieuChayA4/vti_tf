@@ -13,6 +13,7 @@ module "rds" {
     module.network
   ]
   source                              = "./rds"
+  custom_prefix                       = var.custom_prefix
   for_each                            = var.rds_cluster_definition
   db_indentifier                      = each.value.db_indentifier
   db_engine                           = each.value.db_engine
